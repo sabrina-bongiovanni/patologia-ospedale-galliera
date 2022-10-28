@@ -1,0 +1,23 @@
+@import '../../style-variables/variables.scss';
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: $tertiary-color;
+  border-bottom: 1px solid #e5e5e5;
+
+  .navbar-tab {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    padding: 6px 26px;
+  }
+
+  .navbar-tab:hover,
+  .navbar-item-active {
+    background-color: $light-background;
+    cursor: pointer;
+    border-bottom: 2px solid $primary-color;
+    color: $primary-color;
+  }
+}

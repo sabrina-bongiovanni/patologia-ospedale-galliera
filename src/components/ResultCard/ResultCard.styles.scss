@@ -1,0 +1,53 @@
+@import '../../style-variables/variables.scss';
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  row-gap: 29px;
+  column-gap: 27px;
+  margin: 54px auto 148px;
+
+  .single-card-container {
+    flex-basis: 31%;
+    display: flex;
+    justify-content: center;
+
+    .card {
+      height: 269px;
+      max-width: 378px;
+      border: 1px solid #eceff1;
+      border-radius: 4px;
+      box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
+      padding: 30px 25px 17px;
+
+      h4 {
+        font-size: 24px;
+        line-height: 28px;
+        color: $tertiary-text-color;
+      }
+
+      p {
+        font-family: 'Lora';
+        font-size: 16px;
+        line-height: 24px;
+        color: $tertiary-text-color;
+        margin-top: 24px;
+      }
+
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 27px;
+        letter-spacing: 1.29px;
+        color: $primary-color;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
