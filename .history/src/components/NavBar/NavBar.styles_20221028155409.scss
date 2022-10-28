@@ -10,8 +10,7 @@
     font-size: 20px;
     line-height: 36px;
     font-weight: 600;
-    // padding: 6px 26px;
-    padding-bottom: 2px;
+    padding: 6px 26px;
 
     .letter-container {
       padding: 6px 26px;
@@ -24,6 +23,6 @@
     cursor: pointer;
     border-bottom: 2px solid $primary-color;
     color: $primary-color;
-    padding-bottom: 0px;
+    padding-bottom: 2px;
   }
 }

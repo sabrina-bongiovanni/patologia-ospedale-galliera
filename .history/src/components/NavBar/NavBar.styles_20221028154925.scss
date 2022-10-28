@@ -10,20 +10,26 @@
     font-size: 20px;
     line-height: 36px;
     font-weight: 600;
-    // padding: 6px 26px;
-    padding-bottom: 2px;
-
-    .letter-container {
-      padding: 6px 26px;
-    }
+    padding: 6px 26px;
+    position: relative;
   }
 
-  .navbar-tab:hover,
+  // .navbar-tab:hover,
   .navbar-item-active {
     background-color: $light-background;
     cursor: pointer;
-    border-bottom: 2px solid $primary-color;
+    border-bottom: inset 2px solid $primary-color;
     color: $primary-color;
-    padding-bottom: 0px;
+    padding: 6px 26px;
+  }
+
+  .navbar-tab::after {
+    content: '';
+    width: 50px;
+    color: $primary-color;
+    height: 2px;
+    bottom: 0;
+    position: absolute;
+    display: block;
   }
 }

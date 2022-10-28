@@ -18,7 +18,7 @@ const NavBar = ({ alphabet, onClickHandler, filterLetter }) => {
               onClickHandler(letter);
             }}
           >
-            <div className="letter-container">{letter.toUpperCase()}</div>
+            {letter.toUpperCase()}
           </div>
         );
       })}

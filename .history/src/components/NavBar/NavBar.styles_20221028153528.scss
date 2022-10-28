@@ -10,12 +10,7 @@
     font-size: 20px;
     line-height: 36px;
     font-weight: 600;
-    // padding: 6px 26px;
-    padding-bottom: 2px;
-
-    .letter-container {
-      padding: 6px 26px;
-    }
+    padding: 6px 26px;
   }
 
   .navbar-tab:hover,
@@ -24,6 +19,6 @@
     cursor: pointer;
     border-bottom: 2px solid $primary-color;
     color: $primary-color;
-    padding-bottom: 0px;
+    padding: 6px 26px 5px 26px;
   }
 }

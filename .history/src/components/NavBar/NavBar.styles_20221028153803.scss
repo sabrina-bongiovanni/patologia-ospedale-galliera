@@ -10,20 +10,15 @@
     font-size: 20px;
     line-height: 36px;
     font-weight: 600;
-    // padding: 6px 26px;
-    padding-bottom: 2px;
-
-    .letter-container {
-      padding: 6px 26px;
-    }
+    padding: 6px 26px;
   }
 
   .navbar-tab:hover,
   .navbar-item-active {
     background-color: $light-background;
     cursor: pointer;
-    border-bottom: 2px solid $primary-color;
+    outline-bottom: 2px solid $primary-color;
     color: $primary-color;
-    padding-bottom: 0px;
+    padding: 6px 26px;
   }
 }
